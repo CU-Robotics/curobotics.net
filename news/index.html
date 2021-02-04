@@ -12,18 +12,25 @@
 
         <title>CU Robotics</title>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../style.css">
-        <link rel="icon" href="../media/logo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="media/logo.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(window).on('hashchange', function(e){
+                history.replaceState ("", document.title, e.originalEvent.oldURL);
+            });
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
     <body>
         <div class="nav full-bleed">
             <ul>
-                <li><a class="imglink" href="../"><img src="../media/logo.png"></a></li>
-                <li><a class="textlink" href="../about">About</a></li>
-                <li><a class="textlink" href="../news">News</a></li>
-                <li><a class="textlink" href="../competitions">Competitions</a></li>
-                <li style="float: right;"><a class="textlink" href="https://colorado.presence.io/organization/cu-robotics" target="_blank"><img src="../media/cu-logo.png">BuffConnect</a></li>
+                <li><a class="imglink" href="http://curobotics.net/"><img src="media/logo.png"></a></li>
+                <li><a class="textlink" href="about">Showcase</a></li>
+                <li><a class="textlink" href="news">Sponsors</a></li>
+                <li><a class="textlink" href="competitions">Join</a></li>
+                <li style="float: right;"><a class="textlink" href="https://colorado.presence.io/organization/cu-robotics" target="_blank"><img src="media/cu-logo.png">BuffConnect</a></li>
             </ul>
         </div>
         <div class="nav-spacer"></div>
