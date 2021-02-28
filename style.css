@@ -28,6 +28,7 @@ body {
   padding-top: 30px;
   padding-bottom: 50px;
   background-color: #eee;
+  max-width: 100%;
 }
 
 .content > * {
@@ -57,6 +58,25 @@ body {
   display: block;
   margin: 0 auto;
   width: 80ch;
+  max-width: 100%;
+  grid-column: 1 / 4;
+  margin-bottom: 30px;
+}
+
+.small-image {
+  display: block;
+  margin: 0 auto;
+  width: 40ch;
+  max-width: 100%;
+  grid-column: 1 / 4;
+  margin-bottom: 30px;
+}
+
+.sponsor-image {
+  display: block;
+  margin: 0 auto;
+  height: 10ch;
+  max-width: 80ch;
   grid-column: 1 / 4;
   margin-bottom: 30px;
 }
@@ -120,6 +140,7 @@ body {
 
 .nav li a:hover {
   background-color: #000;
+  color: #CFB87C;
 }
 
 .opener {
@@ -130,6 +151,7 @@ body {
   height: 100%;
   background: rgba(0,0,0,0.7);
   backdrop-filter: blur(0px);
+  user-select: none;
 }
 
 .opener-logo {
@@ -166,12 +188,33 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  pointer-events:none;
 }
 
 .parallax video {
   margin-top: 54px;
   min-height: 100%;
   min-width: 100%;
+}
+
+.socials {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 260px;
+  height: 70px;
+  transform: skew(-20deg);
+  background-color: #242526;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 5px;
+}
+
+.social-icon {
+  height: 50px;
+  transform: skew(20deg);
+  margin: 10px;
 }
 
 .scroll-down-container {
