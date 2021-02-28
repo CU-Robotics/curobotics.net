@@ -163,7 +163,7 @@ body {
   font-size: calc(35px + 4.5vw);
   color: white;
   font-family: 'Righteous', cursive;
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 .opener-blurb {
@@ -202,9 +202,8 @@ body {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: 260px;
-  max-width: 50%;
-  height: 70px;
+  width: 230px;
+  height: 64px;
   transform: skew(-20deg);
   background-color: #242526;
   border-color: #fff;
@@ -214,7 +213,7 @@ body {
 }
 
 .social-icon {
-  max-width: 50px;
+  max-width: 42px;
   transform: skew(20deg);
   margin: 10px;
 }
