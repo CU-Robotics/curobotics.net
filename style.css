@@ -157,10 +157,19 @@ body {
 
 .imglink {
   padding: 8px 14px;
+  image-rendering: auto;
 }
 
 .imglink img {
   height: 38px;
+}
+
+.imglink-small {
+  padding: 11px 14px;
+}
+
+.imglink-small img {
+  height: 32px;
 }
 
 .textlink img {
